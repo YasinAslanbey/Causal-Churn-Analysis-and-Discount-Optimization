@@ -1,4 +1,4 @@
-##Causal Churn Analysis and Prescription System
+## Causal Churn Analysis and Prescription System
 This repository contains an end-to-end pipeline that integrates Machine Learning Classification, Causal Inference, and Prescriptive Analytics to manage customer churn. The project uses a Gradio interface to provide actionable insights for individual users.
 
 Core Capabilities
@@ -24,11 +24,11 @@ Step 2 - Causal Estimation: Uses the DoWhy framework to identify the causal effe
 
 Step 3 - Discount Suggestion: Employs EconML's DML to calculate the Conditional Average Treatment Effect (CATE). It tests 10%, 20%, and 30% discount increases to find the "Best Discount" for the selected user.
 
-##Requirements
+## Requirements
 bash:
 pip install pandas numpy scikit-learn dowhy econml gradio
 
-##Usage
+## Usage
 bash:
 DataSet = pd.read_csv('your_path/GA4_DF.csv')
 bash:
