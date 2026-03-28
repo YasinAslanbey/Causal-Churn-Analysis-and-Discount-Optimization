@@ -10,7 +10,7 @@ Prescriptive Optimization (EconML): Utilizes Double Machine Learning (DML) to si
 
 Interactivity: A multi-tab Gradio dashboard for step-by-step analysis.
 
-##Project Workflow
+## Project Workflow
 
 1. Data Processing
 Target Definition: Churn is defined by a combination of zero transactions and low app/web session activity (10th percentile).
